@@ -5,20 +5,7 @@
     </head>
     
     <body>
-        <div id="header">
-            <div class="header-content">
-                <div class="header-text">Shopping</div>
-            </div>
-            <div class="header-content">
-                <div class="header-text">Orders</div>
-            </div>
-            <div class="header-content">
-                <div class="header-text">Cart</div>
-            </div>
-            <div class="header-content" id="login">
-                <div class="header-text">Login</div>
-            </div>
-        </div>
+        <?php include 'NavBar.html' ?>
         
         <div id="body-content">
             
