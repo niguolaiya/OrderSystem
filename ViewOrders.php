@@ -55,18 +55,27 @@
                         oci_execute($stid,OCI_DEFAULT);
                         
                         echo "<div style='flex: 4;'>";
-                            echo '<table>';
-                                echo '<tr><th>NAME</th><th>PRICE</th><th>CATEGORY</th><th>NUMBER OF ITEM</th></tr>';
+                            echo "<table>";
+                                echo "<tr><th>NAME</th><th>PRICE</th><th>CATEGORY</th><th>NUMBER OF ITEM</th></tr>";
                                 while($row = oci_fetch_array($stid, OCI_ASSOC))
                                 {
-                                    echo '<tr>';
+                                    $count = 0;
+                                    echo "<tr>";
                                     foreach ($row as $item)    
                                     {
-                                        echo '<td>'.$item.'</td>';
+                                        if($count == 1) {
+                                            echo "<td style='text-align: right;'>$";
+                                        } elseif ($count == 3) {
+                                            echo "<td style='text-align: center;'>";
+                                        } else {
+                                            echo "<td>";
+                                        }
+                                        echo $item."</td>";
+                                        $count += 1;
                                     }
-                                    echo '</tr>';
+                                    echo "</tr>";
                                 }
-                            echo '</table>';
+                            echo "</table>";
                         echo "</div>";
                     echo "</div><br/><br/>";
                     
