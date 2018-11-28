@@ -48,8 +48,8 @@ function test_input($data) {
   return $data;
 }
 ?>
-
-<h2>login</h2>
+<center>
+<h2>Login</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   Name: <input type="text" name="name" value="<?php echo $name;?>">
@@ -62,7 +62,7 @@ function test_input($data) {
   <br><br> -->
   <input type="submit" name="submit" value="Submit">
 </form>
-
+</center>
 <?php
 echo "<h2>Your Input:</h2>";
 echo $name;
