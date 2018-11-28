@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="Main.css" >
 <style>
 .error {color: #FF0000;}
 </style>
 </head>
 <body>
 
-<?php
+<?php include 'NavBar.html';
 // define variables and set to empty values
 session_start();
 $nameErr = $passErr = "";
