@@ -43,9 +43,9 @@
                 foreach($cartArray as $cartRow) {
                     echo "<div style='display:flex;'>";
                         echo "<div style='flex: 1; border: solid black 1px; border-radius: 10px; padding: 10px; height: 90px; margin-right: 10px; background-color: #EFEFFF;'>";
-                            echo "<br/><b>ORDER ID:</b> $cartRow[0]<br/>";
-                            echo "<b>TOTAL COST:</b> $$cartRow[1]<br/>";
-                            echo "<b>TOTAL ITEMS:</b> $cartRow[2]<br/><br/>";
+                            echo "<br/><div style='float: left;'><b>ORDER ID:</b></div> <div style='float: right;'>$cartRow[0]</div><br/>";
+                            echo "<div style='float: left;'><b>TOTAL COST:</b></div> <div style='float: right;'>$$cartRow[1]</div><br/>";
+                            echo "<div style='float: left;'><b>TOTAL ITEMS:</b></div> <div style='float: right;'>$cartRow[2]</div><br/><br/>";
                         echo "</div>";
 
                         $itemQuery = "SELECT i.NAME, i.PRICE, i.CATEGORY, ci.NUMBER_OF_ITEM FROM CART_ITEM ci INNER JOIN ITEM i ON ci.ORDER_ID = '$cartRow[0]' AND ci.ITEM_ID = i.ID";
