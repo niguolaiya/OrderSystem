@@ -15,9 +15,11 @@
     <body>
         <?php include 'NavBar.html' ?>
         <table>
-                <tr>Items</tr>
-                <tr>USD</tr>
-                <tr>Inventory</tr>
+            <tr>
+                <th>Product</th>
+                <th>USD</th>
+                <th>Inventory</th>
+            </tr>
         </table>
     </body>
 </html>

@@ -10,6 +10,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="Main.css" >
+        <title>Cart</title>
     </head>
 
     <body>
