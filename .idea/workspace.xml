@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197176d0-00b7-4917-b7cd-c852da075277" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NavBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/NavBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login1.php" beforeDir="false" afterPath="$PROJECT_DIR$/login1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state relative-caret-position="149">
+              <caret line="227" column="7" lean-forward="true" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -75,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NavBar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -94,6 +94,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>login</find>
+      <find>test_input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,10 +104,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/login1.php" />
         <option value="$PROJECT_DIR$/Products.php" />
         <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/NavBar.html" />
+        <option value="$PROJECT_DIR$/login1.php" />
       </list>
     </option>
   </component>
@@ -189,12 +190,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543378142110</updated>
       <workItem from="1543378143622" duration="1125000" />
-      <workItem from="1543461002914" duration="1842000" />
+      <workItem from="1543461002914" duration="2004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2967000" />
+    <option name="totallyTimeSpent" value="3129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -248,13 +249,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -302,6 +296,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="79" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="227" column="7" lean-forward="true" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
         </state>
       </provider>
     </entry>

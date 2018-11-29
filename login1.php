@@ -7,7 +7,6 @@
 .error {color: #FF0000;}
 </style>
 </head>
-<body>
 
 <?php include 'NavBar.html';
 // define variables and set to empty values
@@ -133,7 +132,6 @@ oci_close($conn);
         }
     </style>
     <link rel="stylesheet" type="text/css" href="Main.css" >
-</head>
 <body>
 
     <?php 
@@ -165,13 +163,6 @@ oci_close($conn);
           }
 
 
-        }
-
-        function test_input($data) {
-          $data = trim($data);
-          $data = stripslashes($data);
-          $data = htmlspecialchars($data);
-          return $data;
         }
     ?>
     
