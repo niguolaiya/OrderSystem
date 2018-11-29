@@ -15,10 +15,9 @@
     <body>
         <?php include 'NavBar.html' ?>
         <table>
-            <td>Pasta</td>
-                <tr>Noodles</tr>
-            <td>Price</td>
+                <tr>Items</tr>
                 <tr>USD</tr>
+                <tr>Inventory</tr>
         </table>
     </body>
 </html>
