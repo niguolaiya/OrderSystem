@@ -21,7 +21,7 @@ define('PASSWORD', 'Dec371996');
 /**
  * DB connection identifier
  */
-define('DATABASE', 'localhost:pooled');
+define('DATABASE', '(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=db2.ndsu.edu)(Port=1521)))(CONNECT_DATA=(SID=cs)))');
 
 /**
  * DB character set for returned data
@@ -31,6 +31,6 @@ define('CHARSET', 'UTF8');
 /**
  * Client Information text for DB tracing
  */
-define('CLIENT_INFO', 'AnyCo Corp.');
+define('CLIENT_INFO', 'HappyMarketFuntime Co.');
 
 ?>
